@@ -4,7 +4,7 @@ var hammingWeight = function(n) {
     
     var x = n;
     var bits = 0;
-    for(var i = 32; i>=0; i--)
+    for(var i = 31; i>=0; i--)
     {
         if(x>=Math.pow(2,i))
         {
